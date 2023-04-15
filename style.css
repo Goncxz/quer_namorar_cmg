@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    margin: auto;
+    margin-top: 250px;
+    height: 250px;
+    width: 90%;
+    background-color: rgb(145, 187, 187);
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    padding-top: 30px;
+    font-size: 2.0rem;
+    padding-bottom: 50px;
+}
+
+#caixaPrincipal {
+   align-items: center;
+   text-align: center;
+}
+
+button {
+    padding: 10px;
+    width: 90px;
+    border-radius: 20px;
+    border: none;
+    margin: 15px;
+}
+
+button:hover {
+    background-color: aqua;
+}
+
+#botao2:hover {
+    background-color: transparent;
+    color: transparent;
+}
